@@ -13,5 +13,8 @@ application to work.
 The general functionality of this project was assigned, but implementation was designed
 individually.
 
+Me and my partner's implementation received the 3rd highest score in the class out
+of over 30 submissions.
+
 This project was created for CMSC424 at University of Maryland, College Park
 with Professor Nick Roussopoulos.

@@ -10,5 +10,8 @@ If they choose the latter, all files contained within the directory
 This application uses mySql which should be running in order for this
 application to work.
 
+The general functionality of this project was assigned, but implementation was designed
+individually.
+
 This project was created for CMSC424 at University of Maryland, College Park
 with Professor Nick Roussopoulos.

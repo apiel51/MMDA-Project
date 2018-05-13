@@ -3,27 +3,6 @@
 //Get the helper functions for metadata getters
 require_once("meta_helpers.php");
 
-/* files for testing images */
-$testpic = 'https://cdn.shopify.com/s/files/1/0267/1905/products/dsa_miami-4_small.jpg?v=1510871265';
-//$testpic = 'C:\Users\Frank\Pictures\Fall-Colors-Tokyo-2011-G8975.jpg';
-
-/*file for testing text files*/
-//$document = 'C:\Users\Frank\Documents\termdef.docx';
-//$document = 'C:\Users\Frank\Documents\txttest.txt';
-//$document = 'C:\Users\Frank\Documents\xmltest.xml';
-$documenturl = 'https://www.terpconnect.umd.edu/~ftiburzi/sgc/portfolio.html';
-$documentlocal = 'C:\Users\Frank\Documents\portfolio.html';
-
-/*files for testing audio files */
-//$audiofilename = 'C:\Users\Frank\Documents\wavtest.wav';
-$audiofilename = 'https://tutorialehtml.com/assets_tutorials/media/Loreena_Mckennitt_Snow_56bit.mp3';
-
-/*files for testing audio files */
-//$videofilename = 'C:\Users\Frank\Documents\mp4test.mp4';
-//$videofilename = 'C:\Users\Frank\Documents\movtest.mov';
-$videofilename = 'https://www.w3schools.com/html/mov_bbb.mp4';
-
-
 /*Returns an array of image metadata for PNG, JPG and GIF for locally stored files */
 function image_local_metadata($file_path) {
   $image_info = array();
@@ -200,14 +179,5 @@ function audio_URL_metadata($file_path) {
 
   return $image_info;
 }
-
-
-//print_r(image_URL_metadata($testpic));
-
-//echo extract_DOCX_text($document);
-
-//print_r(HTML_local_metadata($documentlocal));
-//print_r(HTML_URL_metadata($documenturl));
-
 
  ?>

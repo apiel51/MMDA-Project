@@ -23,23 +23,4 @@ if ($fp_remote = fopen($remotefilename, 'rb')) {
     fclose($fp_remote);
   }
 
-
-//echo round($ThisFileInfo['playtime_seconds'], 2);
-
-
-//print_r($fileinfo);
-//print_r($fileinfo['video']);
-//$vidarr = array();
-//$vidarr[0] = ($fileinfo['video']['resolution_x'] . 'x' . $fileinfo['video']['resolution_y']);
-//$vidarr[1] = round($fileinfo['playtime_seconds'], 2);
-//$vidarr[2] = $fileinfo['filesize'];
-//echo $fileinfo['video']['resolution_x'];
-//echo "<br />";
-//echo $fileinfo['video']['resolution_y'];
-//echo "<br />";
-//echo round($fileinfo['playtime_seconds'], 2);
-
-//print_r($vidarr[0]);
-
-
  ?>
